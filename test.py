@@ -1,1 +1,73 @@
-nothing
+from turtle import *
+from time import sleep
+for i in range(4):
+#box
+	forward(100)
+	right(90)
+left(90)
+#backround
+bgcolor("salmon")
+#door
+left(180)
+forward(100)
+left(90)
+forward(20)
+left(90)
+forward(40)
+right(90)
+forward(20)
+right(90)
+forward(40)
+#ground
+pencolor("green")
+left(90)
+forward(300)
+left(180)
+forward(700)
+left(180)
+forward(460)
+pencolor("black")
+#roof
+left(90)
+forward(100)
+left(40)
+forward(100)
+left(95)
+forward(100)
+#sun
+penup()
+right(200)
+forward(250)
+pendown()
+pencolor("yellow")
+fillcolor("yellow")
+begin_fill()
+circle(60)
+end_fill()
+#person 1
+penup()
+right(115)
+forward(210)
+left(180)
+forward(25)
+pendown()
+circle(10)
+penup()
+left(90)
+forward(10)
+left(90)
+forward(10)
+pendown()
+forward(10)
+right(45)
+forward(10)
+penup()
+right(180)
+forward(15)
+right(90)
+pendown()
+forward(10)
+#person 2
+
+#sleep
+sleep(4)
